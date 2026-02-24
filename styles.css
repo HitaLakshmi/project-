@@ -7,6 +7,7 @@ body {
   margin: 0;
 }
 
+
 .fancy-button {
   background-color: #ff6f61;
   border: none;
@@ -31,3 +32,4 @@ body {
 .fancy-button:active {
   transform: translateY(1px);
 }
+
