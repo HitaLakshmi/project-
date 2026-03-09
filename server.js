@@ -64,8 +64,6 @@ app.get("/search", (req, res) => {
   console.log(`Searching in table: ${table} for query: ${query}`);
   getData(table, query, res);
 });
-
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
-
